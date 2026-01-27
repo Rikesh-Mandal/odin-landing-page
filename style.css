@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.header-container {
+  background-color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #efe7eb;
+}
+
+.header-heading {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+/* Body Section */
+.body-container {
+  background-color: #ffffff;
+}
+
+.body-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.body-images {
+  border: #3882f6;
+  flex: 1;
+}
+
+/* Quote Section */
+.quote-container {
+  background-color: #efe7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+/* Lower Body Section */
+.lower-body-container {
+  background-color: #3882f6;
+  color: #f8f8f8;
+}
+
+/* Footer Section */
+.footer-container {
+  background-color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #efe7eb;
+}
