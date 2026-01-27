@@ -7,76 +7,96 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header-container">
-      <div class="first-half">
-        <img
-          id="logo"
-          src="/assets/lorem-ipsum.avif"
-          alt="Header Logo"
-          height="310"
-          width="310"
-        />
-        <a href="" target="_blank" rel="noopener noreferrer">Header link one</a>
-        <a href="" target="_blank" rel="noopener noreferrer">Header link two</a>
-        <a href="" target="_blank" rel="noopener noreferrer"
-          >Header link three</a
-        >
-      </div>
+    <section class="top-section">
+      <nav>
+        <div class="logo">
+          <img
+            id="logo"
+            src="/assets/Family_Guy_horizontal.webp"
+            alt="Header Logo"
+            height="auto"
+            width="310"
+          />
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="" rel="noopener noreferrer">Header link one</a></li>
+            <li><a href="" rel="noopener noreferrer">Header link two</a></li>
+            <li>
+              <a href="" rel="noopener noreferrer">Header link three</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <div class="second-half">
-        <h1 class="header-heading">This website is awesome</h1>
-        <p class="header-paragraph">loading...</p>
-        <button class="signup-button">Sign Up</button>
+        <div class="awesome">
+          <h1 class="header-heading">This website is awesome</h1>
+          <p class="header-paragraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. <br />Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, <br />when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. <br />
+            It has survived not only five centuries, but also the leap into
+            electronic typesetting, <br />remaining essentially unchanged.
+          </p>
+          <button class="signup-button"><strong>Sign Up</strong></button>
+        </div>
+
         <img
           id="header-image"
           src="/assets/Stewie_Griffin.png"
           alt="Stweie Stewie_Griffin"
-          height="310"
-          width="310"
+          height="auto"
+          width="150"
         />
       </div>
-    </div>
+    </section>
     <div class="body-container">
       <h1 class="body-header">Some random information.</h1>
-      <div class="body-images">
-        <img
-          src="/assets/Peter_Griffin.png"
-          alt="Peter Griffin"
-          height="310"
-          width="310"
-        />
-        <p>Some Text</p>
-        <img
-          src="/assets/Lois_Griffin.png"
-          alt="Lois Griffin"
-          height="310"
-          width="310"
-        />
-        <p>Some Text</p>
-        <img
-          src="/assets/Brian_Griffin.jpg"
-          alt="Brian Griffin"
-          height="310"
-          width="310"
-        />
-        <p>Some Text</p>
-        <img
-          src="/assets/Meg_Griffin.png"
-          alt="Meg Griffin"
-          height="310"
-          width="310"
-        />
-        <p>Some Text</p>
-      </div>
+
+      <img
+        class="body-images"
+        src="/assets/Peter_Griffin.png"
+        alt="Peter Griffin"
+        height="auto"
+        width="310"
+      />
+      <p>Some Text</p>
+      <img
+        class="body-images"
+        src="/assets/Lois_Griffin.png"
+        alt="Lois Griffin"
+        height="auto"
+        width="310"
+      />
+      <p>Some Text</p>
+      <img
+        class="body-images"
+        src="/assets/Brian_Griffin.jpg"
+        alt="Brian Griffin"
+        height="auto"
+        width="310"
+      />
+      <p>Some Text</p>
+      <img
+        class="body-images"
+        src="/assets/Meg_Griffin.png"
+        alt="Meg Griffin"
+        height="auto"
+        width="310"
+      />
+      <p>Some Text</p>
     </div>
     <div class="quote-container">
       <p id="quote"><em>loading...</em></p>
     </div>
     <div class="lower-body-container">
-      <h2><strong>Call to action! It's time!</strong></h2>
-      <p>Sign up for our product by clicking that button right over there!</p>
-      <button id="signup-button-lower">
-        <a href="" target="_blank" rel="noopener noreferrer">Sign Up</a>
-      </button>
+      <h2 class="lower-header"><strong>Call to action! It's time!</strong></h2>
+      <p class="lower-text">
+        Sign up for our product by clicking that button right over there!
+      </p>
+      <button id="signup-button-lower"><strong>Sign Up</strong></button>
     </div>
     <footer class="footer-container">
       <p>Copyright &copy; The Odin Project 2026</p>
