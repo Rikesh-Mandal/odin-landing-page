@@ -31,6 +31,7 @@ nav {
   color: #efe7eb;
   list-style-type: none;
   display: flex;
+  gap: 12px;
 }
 
 .nav-links a,
@@ -72,7 +73,6 @@ nav {
   block-size: 50vh;
   padding: 10px;
   display: flex;
-  justify-content: center;
   gap: 10px;
 }
 
@@ -82,6 +82,15 @@ nav {
   border-color: #3882f6;
   flex: 1;
 }
+.image-labels-container {
+  display: flex;
+  padding: 10px;
+}
+
+.image-labels {
+  flex: 1;
+  text-align: center;
+}
 
 /* Quote Section */
 .quote-container {
@@ -89,7 +98,7 @@ nav {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
-  block-size: 25vh;
+  height: 25vh;
 }
 
 /* Lower Body Section */
@@ -99,8 +108,14 @@ nav {
   text-align: center;
   border: 4px solid;
   border-radius: 15px;
-  block-size: 15vh;
-  margin: 20vw;
+  height: 20vh;
+  margin: 20vh;
+}
+
+.lower-header,
+.lower-text,
+.signup-button-lower {
+  padding: 10px;
 }
 
 /* Footer Section */
